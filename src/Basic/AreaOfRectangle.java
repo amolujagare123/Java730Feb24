@@ -10,6 +10,7 @@ public class AreaOfRectangle {
 
         area = length * breadth;
 
-        System.out.println("area="+area);
+     //   System.out.println("area="+area);
+        System.out.println(area);
     }
 }

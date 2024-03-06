@@ -10,6 +10,7 @@ public class AreaOfCircle {
 
         area = pi * r * r ;
 
-        System.out.println("area="+area);
+     //   System.out.println("area="+area);
+        System.out.println(area);
     }
 }
