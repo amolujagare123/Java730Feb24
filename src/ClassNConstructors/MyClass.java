@@ -23,7 +23,7 @@ public class MyClass {
      //   a = 89 ;
 
         MyClass ob = new MyClass();
-      //  ob.display();
+        ob.display();
 
         ob.a = 89;
         ob.d = 90.89;

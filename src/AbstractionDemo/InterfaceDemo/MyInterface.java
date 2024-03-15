@@ -3,7 +3,6 @@ package AbstractionDemo.InterfaceDemo;
 public interface MyInterface {
     void start();
     void run();
-
     void display();
     default void myMethod1()
     {
