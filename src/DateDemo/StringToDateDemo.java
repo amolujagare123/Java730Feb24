@@ -7,9 +7,10 @@ import java.util.Date;
 public class StringToDateDemo {
 
     public static void main(String[] args) throws ParseException {
-        String dateStr = "10/04/2019"; // dd/MM/yyyy
+        String dateStr = "10/04-2019"; // dd/MM/yyyy
         System.out.println("dateStr="+dateStr);
         SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
+
         Date date = sd.parse(dateStr);
         System.out.println("Date="+date);
 
