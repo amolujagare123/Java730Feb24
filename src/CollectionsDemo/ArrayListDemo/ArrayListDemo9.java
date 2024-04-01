@@ -25,7 +25,8 @@ public class ArrayListDemo9 {
         // 1. remove all elements which are odd numbers
         // 2. remove all elements which less than 50
 
-        // al.removeIf( ) ;
+     //   al.removeIf(num -> num%2!=0 ) ;
+        al.removeIf(num -> num < 50 ) ;
 
         System.out.println("al="+al);
 
